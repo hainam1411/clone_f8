@@ -1,0 +1,280 @@
+
+/* App content */
+.Content {
+    flex: 1 1;
+    padding: 0 40px 0 20px;
+    max-width: calc(100% - 96px);
+}
+
+/* Slidebar show */
+.Home_slideShow {
+    margin-top: 18px;
+}
+
+.Slideshow_wrapper {
+    min-height: 270px;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.slick-list, .slick-slider {
+    position: relative;
+    display: block;
+}
+
+.slick-slider {
+    box-sizing: border-box;
+}
+
+.Slideshow_arraw.Slideshow_prev {
+    left: 0;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+
+.Slideshow_arraw {
+    background-color: var(--white-color);
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    color: #4b4b4b;
+    font-size: 1.2rem;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    z-index: 1;
+}
+
+.Slideshow_arraw i {
+    transition: transform 0.2s ease;
+}
+
+.Slideshow_arraw:hover i{
+    color: var(--black-color);
+    transform: scale(1.1);
+}
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+}
+
+.slick-list {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.slick-track {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1284px;
+    height: 270px;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-slide {
+    float: left;
+    min-height: 1px;
+    height: 100%;
+}
+
+.Slideshow_item {
+    display: flex;
+    border-radius: 16px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.Slideshow_left {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    justify-content: center;
+    width: 640px;
+    max-width: 100%;
+    line-height: 1.6rem;
+    padding: 0 36px 36px;
+
+}
+
+.Slideshow_heading {
+    margin-bottom: 8px;
+}
+
+.Slideshow_heading a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 3.2rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.Slideshow_desc {
+    margin: 0 0 24px;
+    max-width: 600px;
+    line-height: 1.5;
+    font-size: 1.6rem;;
+}
+
+.Slideshow_ctaBtn {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    min-width: 124px;
+    padding: 7px 12px;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+.Slideshow_ctaBtn-stu:hover {
+    background-color: var(--white-color);
+    color: var(--cta-hover-student-color);
+}
+
+.Slideshow_ctaBtn-you:hover {
+    background-color: var(--white-color);
+    color: var(--cta-hover-youtube-color);
+}
+
+.Slideshow_ctaBtn-react:hover {
+    background-color: var(--white-color);
+    color: var(--cta-hover-reactjs-color);
+}
+
+.Slideshow_ctaBtn-face:hover {
+    background-color: var(--white-color);
+    color: var(--cta-hover-face-color);
+}
+
+.Slideshow_right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 3 1;
+}
+
+.Slideshow_right a {
+    text-decoration: none;
+    display: block;
+}
+
+.Slideshow_right .Slideshow_img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.slick-slide img {
+    display: block;
+
+}
+
+
+.Slideshow_arraw.Slideshow_next {
+    right: 0;
+    transform: translate(50%,-50%);
+    -webkit-transform: translate(50%,-50%);
+}
+
+body .slick-dots {
+    text-align: left;
+    bottom: -38px;
+    left: 40px;
+}
+
+
+.slick-dots {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: 20px;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+    width: 32px;
+    height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    height: 20px;
+    width: 32px;
+    border: none;
+    padding: 5px;
+    position: relative;
+    background: transparent;
+    color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.slick-dots li button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #dce0e3;
+    height: 8px;
+    width: 32px;
+    border-radius: 4px;
+}
+
+
+.slick-dots .hover {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+    width: 50px;
+    height: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.slick-dots .hover .hover-ac {
+    height: 20px;
+    width: 50px;
+    border: none;
+    padding: 5px;
+    position: relative;
+    background: transparent;
+    color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.slick-dots .hover .hover-ac::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #9aa6af;
+    height: 8px;
+    width: 50px;
+    border-radius: 4px;
+}

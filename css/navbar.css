@@ -1,0 +1,129 @@
+.NavBar {
+    --height: 66px;
+    height: var(--height);
+    background-color: var(--white-color);
+    border-bottom: 1px solid #e8ebed;
+    padding: 0 28px;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    font-size: 1.4rem;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    gap: 30px;
+
+}
+
+/* Logo */
+.NavBar_logo {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.NavBar_logo-link {
+    display: flex;
+}
+
+.NavBar_logo-link img {
+    height: 38px;
+    width: 38px;
+    border-radius: 8px;
+}
+
+.NavBar_logoHeading {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 16px;
+    color: #000;
+}
+
+.NavBar_search {
+    flex: 1;
+}
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar_searchWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e8e8e8;
+    height: 40px;
+    border-radius: 20px;
+    width: 420px;
+    padding: 0 16px 0 8px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.NavBar_searchWrapper:focus-within {
+    border-color:  #444;
+}
+
+.Search_icon {
+    height: 32px;
+    line-height: 32px;
+    width: 30px;
+    align-items: center;
+    display: contents;
+}
+
+.Search_icon i {
+    opacity: 0.5;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 7px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.Search_icon i:hover {
+    opacity: 1;
+}
+
+.Search_input {
+    padding: 0 4px;
+    border: none;
+    height: 100%;
+    outline: none;
+    width: 100%;
+    font-size: 1.45rem;
+    font-weight: 400;
+    caret-color: #444;
+    color: var(--text-color);
+}
+
+
+/*navbar button*/
+.Navbar_button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+.Navbar_signup {
+    margin-right: 30px;
+    background: transparent;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Navbar_login {
+    flex-shrink: 0;
+    padding: 9px 20px;
+    border-radius: 99px;
+    color: #fff;
+    background: linear-gradient(to right bottom, #ff8f26, #ff5117);
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity .25s;
+}
+
+
