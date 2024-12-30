@@ -11,6 +11,9 @@
     --cta-hover-reactjs-color: #2877fa;
     --cta-hover-face-color: #2877fa;
     --hover-color: rgba(22,24,35,.05);
+    --layout-sidebar-width: 96px;
+    --header-height: 66px;
+
 }
 
 * {
