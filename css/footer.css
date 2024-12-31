@@ -1,0 +1,146 @@
+.Footer_wrapper {
+    color: #a9b3bb;
+    background-color: #181821;
+    padding: 68px 0 40px;
+    overflow: hidden;
+}
+
+.Footer_column {
+    display: flex;
+    justify-content: center;
+}
+
+.Footer_column_top {
+    display: flex;
+    align-items: center;
+}
+
+.Footer_column_top a {
+    text-decoration: none;
+}
+
+.Footer_top_logo {
+    border-radius: 8px;
+    margin-right: 10px;
+    height: 38px;
+    width: 38px;
+}
+
+.Footer_top_slogan {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.Footer_heading {
+    color: var(--white-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.Footer_list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.Footer_list li {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.Footer_list li a {
+    text-decoration: none;
+    color: #a9b3bb;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.Footer_list li a:hover {
+    color: var(--white-color);
+}
+
+.Footer_list li:last-child {
+    margin-bottom: 2px;
+}
+
+.Footer_dmca {
+    margin-top: 20px;
+}
+
+.Footer_sub_menu {
+    padding-left: 0;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 4px;
+    left: 60%;
+    position: absolute;
+    padding: 10px 20px;
+    top: 20px;
+    width: 220px;
+    transition: all .3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Footer_list li:hover .Footer_sub_menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Footer_bottom {
+    margin-top: 48px;
+    display: flex;
+    align-items: baseline;
+}
+
+.Footer_copyright {
+    font-size: 1.4rem;
+}
+
+.Footer_social-list {
+    margin-left: auto;
+}
+
+.Footer_social-item {
+    display: inline-block;
+    font-size: 3.2rem;
+    text-decoration: none;
+}
+
+.Footer_social-item:hover {
+    opacity: 0.9;
+}
+
+.Footer_social-item+.Footer_social-item {
+    margin-left: 13px;
+}
+
+.Footer_social-item.Footer_youtube {
+    color: #eb2c3b;
+}
+
+.Footer_social-item.Footer_facebook {
+    color: #4867aa;
+}
+
+.Footer_social-item.Footer_tiktok {
+    color: #ccc;
+}
+
+.Footer_banner {
+    width: 100%;
+    margin-top: 94px;
+}
+
+.banner_img {
+    background-image: url(https://thietkephoenix.com/wp-content/uploads/2021/08/Dich-vu-thiet-ke-hinh-anh-quang-cao.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90px;
+    width: 100%;
+}
+
