@@ -1,10 +1,5 @@
 
-/* App content */
-.Content {
-    flex: 1 1;
-    padding: 0 40px 0 20px;
-    max-width: calc(100% - 96px);
-}
+
 
 /* Slidebar show */
 .Home_slideShow {
@@ -13,7 +8,7 @@
 }
 
 .Slideshow_wrapper {
-    min-height: 270px;
+    min-height: 300px;
     width: 100%;
     max-width: 100%;
 
@@ -102,14 +97,13 @@
 .Slideshow_left {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    color: var(--white-color);
-    font-size: 1.6rem;
     justify-content: center;
     width: 640px;
     max-width: 100%;
-    line-height: 1.6rem;
-    padding: 0 36px 36px;
+    padding: 0 36px;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.6;
 
 }
 
@@ -167,9 +161,10 @@
 }
 
 .Slideshow_right {
+    flex: 3;
     display: flex;
     justify-content: flex-end;
-    flex: 3 1;
+    overflow: hidden;
 }
 
 .Slideshow_right a {

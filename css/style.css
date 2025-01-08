@@ -54,3 +54,16 @@ button {
     padding: 0;
     color: inherit;
 }
+
+.Main-content {
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.Content {
+    width: min(100% - var(--layout-sidebar-width), 2400px);
+    margin: auto;
+    padding: 0 32px 0 10px;
+    display: flex;
+}
