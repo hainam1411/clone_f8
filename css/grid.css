@@ -600,7 +600,7 @@
     }
 }
 
-@media (min-width: 1800px)  {
+@media (min-width: 1800px) and (max-width: 1999px) {
     /* .wide {
         width: 984px;
     } */
@@ -754,3 +754,11 @@
         margin-left: 91.66667%;
     }
 }
+
+@media (min-width: 2000px) {
+    .wide .xxl-1 {
+        flex: 0 0 16.6667%;  /* Mỗi cột chiếm 16.6667% để hiển thị 6 cột */
+        max-width: 16.6667%;
+    }
+}
+

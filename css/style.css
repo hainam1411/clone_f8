@@ -57,6 +57,7 @@ button {
 
 .Main-content {
     display: flex;
+    flex-wrap: wrap;
     min-height: 100vh;
 
 }
