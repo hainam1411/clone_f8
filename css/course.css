@@ -122,6 +122,7 @@
 
 .view, .videos, .duration {
     display: flex;
+    align-items: center;
 }
 
 .more-info span {
