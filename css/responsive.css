@@ -1,53 +1,24 @@
-/* Mobile - Tablet */
-@media (max-width: 1023px) {
 
-    .App_widthslidebarContent {
-        max-width: 100%;
-        padding: 0 32px;
+
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .col {
+        flex: 0 0 auto;
+        width: 50%;
     }
 
-    .postItem_author {
-        display: none;
+    .infoItem {
+        padding: 10px;
     }
-
-    .VideoItem_stats {
-        display: none;
-    }
-
-    .Slideshow_wrapper {
-        border-radius: 16px;
-        overflow: hidden;
-    }
-
-    .ScrollList_vertical .ScrollList_body {
-        display: flex !important;
-        overflow-y: hidden;
-        overflow-x: auto;
-        padding-bottom: 16px;
-    }
-
-    .row-2 {
-        flex-wrap: wrap;
-        margin-left: -8px;
-        margin-right: -8px;
-    }
-
-    .c-12-2 {
-        flex: 0;
-        flex-wrap: wrap;
-    }
-
-    .col-2 {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
-    .Footer_column {
-        justify-content: left;
+    .price {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
     }
 }
 
-/* Mobile */
+/* Mobile - Tablet */
 @media (max-width: 767px) {
     .Main-content {
         margin-left: auto;
@@ -89,6 +60,9 @@
     .Nav_actionsIcon {
         margin: 0;
         padding: 8px 12px;
+    }
+    .videos {
+        display: none;
     }
 
     .Sidebar_wrapper {
@@ -187,7 +161,7 @@
 
     .ScrollList_body {
         /*min-height: 180px;*/
-    /*    padding: 0 16px;*/
+        /*    padding: 0 16px;*/
     }
 
     .commonItem_wrapper {
@@ -213,29 +187,70 @@
     }
 }
 
-@media (max-width: 575.98px) {
-    .col {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-
-    .infoItem {
-        padding: 10px;
-    }
-    .price {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 10px;
-    }
-    /*.more-info {*/
-    /*    justify-content: space-between;*/
-    /*    margin-top: auto;*/
-    /*}*/
-}
-
-/* Tablet */
+/* Tablet - pc */
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    .postItem_author {
+        display: none;
+    }
+
+    .Slideshow_wrapper {
+        border-radius: 16px;
+        overflow: hidden;
+    }
+
+    .ScrollList_vertical .ScrollList_body {
+        display: flex !important;
+        overflow-y: hidden;
+        overflow-x: auto;
+        padding-bottom: 16px;
+    }
+
+    .row-2 {
+        flex-wrap: wrap;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .c-12-2 {
+        flex: 0;
+        flex-wrap: wrap;
+    }
+
+    .col-2 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .Footer_column {
+        justify-content: left;
+    }
+
+    .App_widthslidebarContent {
+        max-width: 100%;
+        padding: 0 32px;
+    }
+
+
+    .row-2 {
+        flex-wrap: wrap;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .c-12-2 {
+        flex: 0;
+        flex-wrap: wrap;
+    }
+
+    .col-2 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .Footer_column {
+        justify-content: left;
+    }
 
     .NavBar_wrapper {
         padding: 0 32px;
@@ -277,14 +292,14 @@
         display: none;
     }
 }
-
-
+/*medium pc*/
 @media (min-width: 1024px) and (max-width: 1440px) {
     .slick-slide {
         width: calc(100% - 636px) !important;
     }
 }
 
+/*high pc*/
 @media (min-width: 1441px) and (max-width: 2800px) {
     .slick-slide {
         width: calc(100% - 0px) !important;
