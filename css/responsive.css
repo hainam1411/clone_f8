@@ -81,6 +81,10 @@
         justify-content: space-evenly;
         width: 100%;
     }
+    .Sidebar_list li a {
+        height: 60px;
+        width: auto;
+    }
 
     .App_widthslidebarContent {
         padding: 0 16px;
