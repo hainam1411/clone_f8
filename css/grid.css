@@ -463,7 +463,7 @@
 /*}*/
 
 /* > PC low resolution */
-@media (min-width: 1024px) and (max-width: 1799px) {
+@media (min-width: 990px) and (max-width: 1200px) {
     /* .wide {
         width: 984px;
     } */
@@ -618,8 +618,15 @@
     }
 }
 
-@media (min-width: 1800px) and (max-width: 1999px) {
+@media (min-width: 1201px) and (max-width: 1799px) {
     .wide .xl-2-4 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 1999px) {
+    .wide .xxl-1 {
         flex: 0 0 20%;
         max-width: 20%;
     }

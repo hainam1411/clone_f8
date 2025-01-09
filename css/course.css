@@ -198,10 +198,12 @@
 }
 
  .VideoItem_stats {
-    display: flex;
-    font-size: 1.4rem;
-    color: #757575;
-    margin-left: -24px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: auto;
+     color: #757575;
+     font-size: 1.4rem;
 }
 
  .VideoItem_stats div {
