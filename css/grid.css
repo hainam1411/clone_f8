@@ -451,6 +451,24 @@
 }
 
 @media (min-width: 1201px) and (max-width: 1799px) {
+    .wide .row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .wide .row.sm-gutter {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+     .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+     .wide .xl-2 {
+         flex: 0 0 20%;
+         max-width: 20%;
+     }
     .wide .xl-2-4 {
         flex: 0 0 25%;
         max-width: 25%;
@@ -458,16 +476,31 @@
 }
 
 @media (min-width: 1800px) and (max-width: 1999px) {
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
     .wide .xxl-1 {
         flex: 0 0 20%;
         max-width: 20%;
     }
+    .wide .xxl-2 {
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
 }
 
 @media (min-width: 2000px) {
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
     .wide .xxl-1 {
         flex: 0 0 16.6667%;  /* Mỗi cột chiếm 16.6667% để hiển thị 6 cột */
         max-width: 16.6667%;
     }
+
+
 }
 
